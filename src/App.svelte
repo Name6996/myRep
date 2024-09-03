@@ -1,22 +1,23 @@
+<script>
+let name = 'DAAAA';
+import Nested from './Nested.svelte';
+</script>
 
 <main>
-Hello world
+<p>Hello world {name}</p>
+<Nested />
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  }
+p {color : green;
+font-family: 'Comic Sans MS', cursive;
+font-size: 2em; 
+}
+main {
+		color: blue;
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 2em;
+	}
 </style>
+
+
