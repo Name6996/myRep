@@ -1,8 +1,8 @@
 <script>
-import Nes from './NestedPlus.svelte';
+import NestedPlus from './NestedPlus.svelte';
+export let t2;
 </script>
 
 <main>
-<p>ДАааааааа</p>
-<Nes />
+<NestedPlus t2={t3} />
 </main>
